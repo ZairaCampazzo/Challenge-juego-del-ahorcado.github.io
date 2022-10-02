@@ -1,0 +1,230 @@
+
+body{
+    min-width: 1224px;
+    position: relative;
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background: #ff8e32;
+}
+
+.boton-iniciar {
+    display: flex;
+    flex-direction: row;
+    padding: 28px;
+    position: absolute;
+    width: 317x;
+    height: 114x;
+    top: 190px;
+    margin-left: 160px;
+    background: #0a7149;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+:hover.boton-iniciar{
+    background-color: rgba(0, 195, 255, 0.788);
+    color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.boton-palabra{
+    display: flex;
+    flex-direction: row;
+    padding: 28px;
+    position: absolute;
+    width: 317x;
+    height: 114x;
+    top: 290px;
+    margin-left: 185px;
+    background: #0a7149;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+:hover.boton-palabra{
+    background-color: rgba(0, 195, 255, 0.788);
+    color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.text-input {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    left: 1.5rem;
+    top: 200px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    justify-content: baseline;
+    color: black;
+    background: transparent;
+    border: none;
+}
+
+::placeholder { color: black; text-transform:lowercase;}
+  
+.text-input:focus { 
+    border-radius:30px ;
+}
+
+label{
+    flex-direction: row;
+    position: static;
+    width: 300px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    padding-left: 25px;
+    font-weight: 600;
+    font-family: Inter;
+    font-style: normal;
+    font-size:25px;
+    line-height: 100%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 2rem;
+    top: 41rem;
+}
+
+.botones-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 0;
+    top: 43rem;
+}
+
+.boton-azul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    justify-content: center; 
+  
+}
+
+:hover.boton-azul{
+    background-color: rgba(0, 195, 255, 0.788);
+    color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.boton-blanco{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    justify-content: center;
+}
+
+:hover.boton-blanco{
+    background-color: rgba(35, 236, 9, 0.479);
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.canvas{
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px;
+}
+
+.botones-div-canvas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 28.5rem;
+    top: 1000px;
+    margin-bottom: 25px;
+}
+
+.botones-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left:42rem;
+}
+
+.palabra-nueva{
+    position: absolute;
+    left: 30rem;
+}
+
+footer{
+    text-align: center;
+    margin-top: 400px;
+    font-size: 30px;
+    font-style: italic;
+}

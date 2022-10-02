@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Juego del ahorcado</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/zaira/ORACLE/Formación principiante en programación/Challenge juego del ahorcado/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="/zaira/ORACLE/Formación principiante en programación/Challenge juego del ahorcado/LogoAlura.png" alt="Logo de Alura con la inicial de la letra a"> 
+        </header>
+        <div id="div-desaparece" class="botones-home">
+            <a href="#forca">
+              <input class="boton-iniciar" type="submit" value="Iniciar Juego" id="iniciar-juego" onclick="iniciarJuego()">
+            </a>
+            <button class="boton-palabra" id="nueva-palabra" onclick="ensenarPantallaDeAgregarPalabra()">Agregar Palabra</button>
+        </div>
+        <div id="agregar-palabra" class="palabra-nueva">
+            <input class="text-input" type="text" id="input-nueva-palabra"  maxlength="8" placeholder="Escriba una palabra">
+            <div class="form-group">
+              <label for="input-texto"> Máx. 8 caracteres</label>
+            </div>
+            <div class="botones-div">
+              <input class="boton-azul" type="submit" value="Guardar y empezar" id="boton-guardar" onclick="guardarPalabra()">
+              <input class="boton-blanco" type="submit" value="Cancelar" id="boton-cancelar" onclick="recargar()">
+            </div> 
+          </div>
+        <div id="div-aparece-ahorcado" class="canvas">
+          <canvas id="horca" width="1200" height="860"></canvas>
+        </div>
+        <div class="botones-div-canvas">
+            <input class="boton-azul" type="submit" value="Nuevo Juego" id="boton-nuevo-juego" onclick="recargar()">
+            <input class="boton-blanco" type="submit" value="Salir" id="boton-salir" onclick="recargar()">
+          </div>
+        <script src="/zaira/ORACLE/Formación principiante en programación/Challenge juego del ahorcado/horca.js"></script>
+        <script src="/zaira/ORACLE/Formación principiante en programación/Challenge juego del ahorcado/canvas.js"></script>
+    </body>
+    <footer>
+        <p class="footer">Zaira Campazzo (Programa ONE ~ Oracle ~ Alura Latam)</p>
+    </footer>
+</html>
+
